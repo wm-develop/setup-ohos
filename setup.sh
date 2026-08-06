@@ -37,7 +37,7 @@ download_sdk() {
     mkdir -p $WORK_DIR
     cd $WORK_DIR
 
-    gh release download $VERSION -p "$FILENAME.*" -R ErBWs/ohos-sdk
+    gh release download $VERSION -p "$FILENAME.*" -R wm-develop/ohos-sdk
 
     cat $FILENAME.aa $FILENAME.ab > $FILENAME
 
